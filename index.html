@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecto 1 Sistemas Distribuidos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Catalogo de Comics</h1>
-    <h3>Esteban Espinoza Fallas & Marco murillo Sanchez</h3>
-    <div class="container">
-        <div class="row"  style="margin-top: 15px">
+    <div class="container text-center">
+      <h1>Catalogo de Comics</h1>
+      <h3>Esteban Espinoza Fallas & Marco murillo Sanchez</h3>
+        <div class="row justify-content-md-center"  style="margin-top: 15px">
           <button onclick="document.getElementById('iframe').src='home.html';"
-             class="three columns button-primary">Home</button>
+             class="btn btn-primary mx-3">Home</button>
           <button 
              onclick="document.getElementById('iframe').src='https://comics-p1-sd.netlify.app/#/revista';"
-               class="three columns button-primary">Comics</button>
+               class="btn btn-primary  mx-3">Comics</button>
           <button 
              onclick="document.getElementById('iframe').src='https://ilustrator-p1-sd.netlify.app/#/ilustrator';"
-             class="three columns button-primary">Ilustrators</button>
+             class="btn btn-primary  mx-3">Ilustrators</button>
           <button 
              onclick="document.getElementById('iframe').src='https://characters-p1-sd.netlify.app/#/personaje';"
-             class="three columns button-primary">Characters</button>
+             class="btn btn-primary mx-3">Characters</button>
         </div>
-        <div class="row" style="height: 700px">
-          <div class="twelve columns" style="height: 100%">
+        <div class="row mt-3" style="height: 700px">
+          <div class="col" style="height: 100%">
             <iframe id="iframe" style="border:0px solid black;" 
                     src="home.html" width="100%" height="100%"></iframe>
           </div>
         </div>
-        <div class="row"  style="margin-top: 15px">
+        <div class=""  style="margin-top: 15px">
              <button disabled="disabled" class="twelve columns button-primary">
                 Copyright (c) 2021 - Esteban Espinoza Fallas & Marco Murillo Sanchez.</button>
         </div>
       </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
